@@ -152,6 +152,7 @@ select{
     line-height: 0.8rem;
     font-size: 0.34rem;
     color: #575757;
+    background-color: white;
 }
 option{
     line-height: 0.8rem;
