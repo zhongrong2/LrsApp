@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 1087496 */
+    src: url('https://at.alicdn.com/t/font_1087496_07wd4rkj1uuq.eot');
+    src: url('https://at.alicdn.com/t/font_1087496_07wd4rkj1uuq.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_1087496_07wd4rkj1uuq.woff2') format('woff2'),
+    url('https://at.alicdn.com/t/font_1087496_07wd4rkj1uuq.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_1087496_07wd4rkj1uuq.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_1087496_07wd4rkj1uuq.svg#iconfont') format('svg');
+}
+
+
+
+
+body{
+    background-color: white;
+}
+
+/*头部样式*/
+#head{
+    width: 100%;
+    height: 0.94rem;
+    background-color: #05A9FF;
+    font-size: 0.36rem;
+    color: #ffffff;
+    line-height: 0.94rem;
+    padding: 0 0.15rem;
+}
+.back{
+    width: 15%;
+    height: 100%;
+    font-size: 0.38rem;
+    color: white;
+    float: left;
+    text-align: left;
+}
+.head-title{
+    width: 70%;
+    float: left;
+    text-align: center;
+}
+.login{
+    width: 15%;
+    height: 100%;
+    color: white;
+    float: left;
+    text-align: right;
+}
+
+/*注册样式*/
+#register{
+    width: 100%;
+    /*padding: 1.0rem 0.3rem;*/
+    padding: 1.0rem 0;
+}
+.register ul{
+    border-top: 0.01rem solid #dddddd;
+}
+.register li{
+    height: 1rem;
+    /*border: 0.01rem solid #dddddd;*/
+    /*margin: 0.1rem 0;*/
+    border-bottom: 0.01rem solid #dddddd;
+    /*padding: 0.1rem 0.08rem;*/
+    padding: 0.1rem 0.3rem;
+}
+input[type='text'],input[type='password']{
+    width: 100%;
+    outline: none;
+    border: none;
+    float: left;
+    line-height: 0.8rem;
+    font-size: 0.34rem;
+    color: #575757;
+}
+.password{
+    width: 85%!important;
+}
+.ImgCode,.code{
+    width: 60%!important;
+}
+.ImgCodeBox{
+    width: 30%;
+    float: right;
+    height: 0.8rem;
+    padding: 0.1rem 0;
+}
+.sendImgCode{
+    width: 95%;
+    height: 0.6rem;
+    background-color: #40c6f3;
+    float: right;
+    border-radius: 0.1rem;
+    color: white;
+    font-size: 0.42rem;
+    text-align: center;
+}
+/*.freshen{
+    float: right;
+    font-size: 0.28rem;
+    color: #1f1f1f;
+    line-height: 0.6rem;
+}*/
+.codeBox{
+    width: 30%;
+    float: right;
+    height: 0.8rem;
+    padding: 0.15rem 0;
+}
+.sendCode{
+    display: block;
+    font-size: 0.28rem;
+    color: #a07941;
+    padding: 0.08rem 0.16rem;
+    border: 0.02rem solid #a07941;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+.eyeBox{
+    width: 12%;
+    height: 0.8rem;
+    float: right;
+    text-align: right;
+    line-height: 0.4rem;
+}
+.eyeIcon{
+    font-family: iconfont;
+    font-style: normal;
+    font-size: 0.46rem;
+    color: #666666;
+}
+.carInfo{
+    margin-top: 0.2rem;
+    font-size: 0.28rem;
+    border-top: none!important;
+}
+.carInfo li:first-child{
+    border-top: none;
+    padding-top: 0.4rem;
+    font-size: 0.32rem;
+    font-weight: 600;
+    color: #424242;
+}
+.carType{
+    padding: 0.1rem 0.2rem!important;
+}
+select{
+    width: 100%;
+    outline: none;
+    border: none;
+    float: left;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.34rem;
+    color: #575757;
+}
+option{
+    line-height: 0.8rem;
+    color: #575757;
+}
+.sendBtn{
+    background-color: #d1d1d1;
+    border: 0.02rem solid #d1d1d1;
+    color: #222222;
+}
+
+/*底部样式*/
+.foot{
+    font-size: 0.28rem;
+    text-align: center;
+    padding-top: 0.3rem;
+    line-height: 0.5rem;
+    display: block;
+}
+.sumbit{
+    line-height: 1.0rem;
+    font-size: 0.32rem;
+    padding: 0.15rem 0.5rem;
+    color: white;
+    background-color: #05A9FF;
+    border-radius: 0.2rem;
+}
+input[type='checkbox']{
+    position: relative;
+    text-align: center;
+    margin-right: 0.2rem;
+    border-radius: 0.03rem;
+}
+input[type='checkbox']::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0.02rem solid #d9d9d9;
+    border-radius: 0.03rem;
+}
+input[type='checkbox']:checked::before{
+    content: "\2713";
+    background-color: #0A8BE8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0.02rem solid #0A8BE8;
+    color: #FFFFFF;
+    font-size: 0.12rem;
+    font-weight: bold;
+    border-radius: 0.03rem;
+}
